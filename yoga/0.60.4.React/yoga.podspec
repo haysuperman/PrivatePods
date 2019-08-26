@@ -3,11 +3,10 @@
 # This source code is licensed under the MIT license found in the
 # LICENSE file in the root directory of this source tree.
 
-version = '0.60.4'
 
 Pod::Spec.new do |spec|
   spec.name = 'yoga'
-  spec.version = "#{version}.React"
+  spec.version = "0.60.4.React"
   spec.license =  { :type => 'MIT' }
   spec.homepage = 'https://yogalayout.com'
   spec.documentation_url = 'https://yogalayout.com/docs/'
@@ -17,7 +16,7 @@ Pod::Spec.new do |spec|
 
   spec.authors = 'Facebook'
   spec.source = {:git => 'https://github.com/xcuYao/react-native.git',
-		 :tag => '#{version}'}
+		 :tag => "0.60.4"}
 
   spec.module_name = 'yoga'
   spec.requires_arc = false
