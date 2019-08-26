@@ -4,6 +4,8 @@
 # This source code is licensed under the MIT license found in the
 # LICENSE file in the root directory of this source tree.
 
+version = '0.60.4'
+
 folly_compiler_flags = '-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32'
 folly_version = '2018.10.22.00'
 boost_compiler_flags = '-Wno-documentation'
@@ -16,7 +18,7 @@ Pod::Spec.new do |s|
   s.license                = "hello world"
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
-  s.source                 = { :git => 'https://github.com/xcuYao/react-native.git', :tag => '0.60.4'}
+  s.source                 = { :git => 'https://github.com/xcuYao/react-native.git', :tag => version}
   s.source_files           = "ReactCommon/cxxreact/*.{cpp,h}"
   s.exclude_files          = "SampleCxxModule.*"
   s.compiler_flags         = folly_compiler_flags + ' ' + boost_compiler_flags
