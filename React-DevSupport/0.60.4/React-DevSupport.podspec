@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.version                = version
   s.summary                = "-"  # TODO
   s.homepage               = "http://facebook.github.io/react-native/"
-  s.license                = package["license"]
+  s.license                = "Hello world"
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
   s.source                 = { :git => 'https://github.com/xcuYao/react-native.git', :tag => version}
