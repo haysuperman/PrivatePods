@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
                                quality or capability.
                              DESC
   s.homepage               = "http://facebook.github.io/react-native/"
-  s.license                = "Hwllo license"
+  s.license                = "Hello license"
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
   s.source                 = { :git => 'https://github.com/xcuYao/react-native.git', :tag => version}

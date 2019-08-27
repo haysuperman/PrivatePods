@@ -13,8 +13,7 @@ Pod::Spec.new do |s|
   s.license                = "hello world"
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
-  s.source                 = {:git => 'https://github.com/xcuYao/react-native.git',
-		 	      :tag => "0.60.4"}
+  s.source                 = { :git => 'https://github.com/xcuYao/react-native.git', :tag => "0.60.4"}
   s.source_files           = "ReactCommon/jsinspector/*.{cpp,h}"
   s.header_dir             = 'jsinspector'
 end
