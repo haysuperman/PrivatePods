@@ -37,6 +37,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig    = { "HEADER_SEARCH_PATHS" => "\"$(PODS_TARGET_SRCROOT)/ReactCommon\" \"$(PODS_ROOT)/boost-for-react-native\" \"$(PODS_ROOT)/DoubleConversion\" \"$(PODS_ROOT)/Folly\" \"$(PODS_ROOT)/yoga\"" }
 
   s.dependency "Folly", folly_version
+  s.dependency "React-jsi", version
   s.dependency "React-cxxreact", version
   s.dependency "React-jsiexecutor", version
   s.dependency "yoga", "#{version}.React"
