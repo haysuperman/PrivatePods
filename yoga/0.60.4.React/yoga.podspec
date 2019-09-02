@@ -36,7 +36,8 @@ Pod::Spec.new do |spec|
   # E.g. when publishing this spec to a spec repo.
   spec.source_files = 'ReactCommon/yoga/yoga/**/*.{cpp,h}'
   # header_files = 'yoga/{Yoga,YGEnums,YGMacros,YGValue,YGStyle,CompactValue,YGFloatOptional,Yoga-internal,YGNode,YGConfig,YGLayout,YGMarker}.h'
-  header_files = 'yoga/{Yoga,YGEnums,YGMacros,YGValue,YGStyle,YGFloatOptional,Yoga-internal,YGNode,YGConfig,YGLayout,YGMarker}.h'
+  # header_files = 'yoga/{Yoga,YGEnums,YGMacros,YGValue,YGStyle,YGFloatOptional,YGNode,YGConfig,YGLayout,YGMarker}.h'
+  header_files = 'yoga/{Yoga,YGEnums,YGMacros,YGValue}.h'
   header_files = File.join('ReactCommon/yoga', header_files)
   spec.public_header_files = header_files
   spec.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
