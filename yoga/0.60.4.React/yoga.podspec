@@ -28,14 +28,13 @@ Pod::Spec.new do |spec|
       '-fPIC'
   ]
 
-  spec.library = "libc++"
-
   # Pinning to the same version as React.podspec.
   spec.platforms = { :ios => "9.0", :tvos => "9.2" }
 
   # Set this environment variable when *not* using the `:path` option to install the pod.
   # E.g. when publishing this spec to a spec repo.
   spec.source_files = 'ReactCommon/yoga/yoga/**/*.{cpp,h}'
-
-  spec.public_header_files = 'ReactCommon/yoga/yoga/**/*.h'
+  header_files = 'yoga/{Yoga,YGEnums,YGMacros,YGValue,YGStyle,CompactValue,YGFloatOptional,Yoga-internal,YGNode,YGConfig,YGLayout,YGMarker}.h'
+  header_files = File.join('ReactCommon/yoga', header_files)
+  spec.public_header_files = header_files
 end
