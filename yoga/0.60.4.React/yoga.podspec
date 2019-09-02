@@ -38,7 +38,6 @@ Pod::Spec.new do |spec|
   header_files = File.join('ReactCommon/yoga', header_files)
   spec.public_header_files = header_files
 
-  spec.libraries = 'c++'
-  spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
+  spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load', "CLANG_ENABLE_MODULES" => false }
 
 end
