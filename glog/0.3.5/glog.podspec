@@ -32,7 +32,7 @@ Pod::Spec.new do |spec|
   spec.compiler_flags      = '-Wno-shorten-64-to-32'
   spec.pod_target_xcconfig = { "USE_HEADERMAP" => "NO",
                                "HEADER_SEARCH_PATHS" => "$(PODS_TARGET_SRCROOT)/src" }
-
+  spec.public_header_files = 'src/glog/*.h'
   # Pinning to the same version as React.podspec.
   spec.platforms = { :ios => "9.0", :tvos => "9.2" }
 
