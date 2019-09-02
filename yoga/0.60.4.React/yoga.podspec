@@ -19,14 +19,14 @@ Pod::Spec.new do |spec|
 
   spec.module_name = 'yoga'
   spec.requires_arc = false
-  spec.compiler_flags = [
-      '-fno-omit-frame-pointer',
-      '-fexceptions',
-      '-Wall',
-      '-Werror',
-      '-std=c++1y',
-      '-fPIC'
-  ]
+  # spec.compiler_flags = [
+  #     '-fno-omit-frame-pointer',
+  #     '-fexceptions',
+  #     '-Wall',
+  #     '-Werror',
+  #     '-std=c++1y',
+  #     '-fPIC'
+  # ]
 
   # Pinning to the same version as React.podspec.
   spec.platforms = { :ios => "9.0", :tvos => "9.2" }
