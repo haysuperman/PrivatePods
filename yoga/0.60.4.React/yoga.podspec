@@ -37,5 +37,6 @@ Pod::Spec.new do |spec|
   header_files = 'yoga/{Yoga,YGEnums,YGMacros,YGValue,YGStyle,CompactValue,YGFloatOptional,Yoga-internal,YGNode,YGConfig,YGLayout,YGMarker}.h'
   header_files = File.join('ReactCommon/yoga', header_files)
   spec.public_header_files = header_files
+  spec.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
 
 end
