@@ -12,10 +12,10 @@ Pod::Spec.new do |s|
   s.summary                = "A general interface to interact with both incoming and outgoing app links."
   s.homepage               = "http://facebook.github.io/react-native/"
   s.documentation_url      = "https://facebook.github.io/react-native/docs/linking"
-  s.license                = "Hello world"
+  s.license                = { :type => 'MIT' }
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
-  s.source                 = { :git => "https://github.com/xcuYao/react-native.git", :tag => version}
+  s.source                 = { :git => 'https://gitee.com/yaoning/react-native.git', :tag => version }
   s.source_files           = "Libraries/LinkingIOS/*.{h,m}"
   s.preserve_paths         = "package.json", "LICENSE", "LICENSE-docs"
   s.header_dir             = "React"

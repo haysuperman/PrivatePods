@@ -24,11 +24,10 @@ Pod::Spec.new do |s|
                                quality or capability.
                              DESC
   s.homepage               = "http://facebook.github.io/react-native/"
-  s.license                = "Hello license"
+  s.license                = { :type => 'MIT' }
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
-  s.source                 = { :git => 'https://github.com/xcuYao/react-native.git', :tag => version}
-  s.preserve_paths         = "package.json", "LICENSE", "LICENSE-docs"
+  s.source                 = { :git => 'https://gitee.com/yaoning/react-native.git', :tag => version }
   s.cocoapods_version      = ">= 1.2.0"
 
   s.dependency "React-Core", version

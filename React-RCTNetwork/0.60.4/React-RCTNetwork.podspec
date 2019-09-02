@@ -11,12 +11,11 @@ Pod::Spec.new do |s|
   s.version                = version
   s.summary                = "The networking library of React Native."
   s.homepage               = "http://facebook.github.io/react-native/"
-  s.license                = "Hello world"
+  s.license                = { :type => 'MIT' }
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
-  s.source                 = { :git => "https://github.com/xcuYao/react-native.git", :tag => version}
+  s.source                 = { :git => 'https://gitee.com/yaoning/react-native.git', :tag => version }
   s.source_files           = "Libraries/Network/*.{h,m,mm}"
-  s.preserve_paths         = "package.json", "LICENSE", "LICENSE-docs"
   s.header_dir             = "React"
 
   s.dependency "React-Core", version

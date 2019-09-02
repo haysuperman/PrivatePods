@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
   s.version                = version
   s.summary                = "The core of React Native."
   s.homepage               = "http://facebook.github.io/react-native/"
-  s.license                = "Hello wrold"
+  s.license                = { :type => 'MIT' }
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
-  s.source                 = { :git => 'https://github.com/xcuYao/react-native.git', :tag => version}
+  s.source                 = { :git => 'https://gitee.com/yaoning/react-native.git', :tag => version }
   s.source_files           = "React/**/*.{c,h,m,mm,S,cpp}"
   s.exclude_files          = "React/DevSupport/**/*",
                              "React/Fabric/**/*",
