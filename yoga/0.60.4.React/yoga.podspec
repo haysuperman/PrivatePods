@@ -28,6 +28,8 @@ Pod::Spec.new do |spec|
       '-fPIC'
   ]
 
+  spec.library = "stdc++"
+
   # Pinning to the same version as React.podspec.
   spec.platforms = { :ios => "9.0", :tvos => "9.2" }
 
