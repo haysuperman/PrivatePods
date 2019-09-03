@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
   s.source                 = { :git => 'https://github.com/facebook/react-native.git', :tag => version }
-  s.source_files           = "DevSupport/*.{mm,m}",
-                             "Inspector/*.{mm,m}"
+  s.source_files           = "React/DevSupport/*.{mm,m}",
+                             "React/Inspector/*.{mm,m}"
   s.header_dir             = "DevSupport"
   s.static_framework       = true
 

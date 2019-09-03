@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
   s.compiler_flags         = folly_compiler_flags + ' -Wno-nullability-completeness'
   s.source                 = { :git => 'https://github.com/facebook/react-native.git', :tag => version }
-  s.source_files           = "**/*.{c,m,mm,cpp}"
+  s.source_files           = "React/CoreModules/**/*.{c,m,mm,cpp}"
   s.header_dir             = "CoreModules"
   s.static_framework       = true
   s.pod_target_xcconfig    = {

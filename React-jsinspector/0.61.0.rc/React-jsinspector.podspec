@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
   s.source                 = { :git => 'https://github.com/facebook/react-native.git', :tag => version }
-  s.source_files           = "*.{cpp,h}"
+  s.source_files           = "ReactCommon/jsinspector/*.{cpp,h}"
   s.header_dir             = 'jsinspector'
   s.static_framework       = true
 end

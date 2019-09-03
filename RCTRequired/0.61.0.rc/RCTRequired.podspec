@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
   s.source                 = { :git => 'https://github.com/facebook/react-native.git', :tag => version }
-  s.source_files           = "**/*.{c,h,m,mm,cpp}"
+  s.source_files           = "Libraries/RCTRequired/**/*.{c,h,m,mm,cpp}"
   s.header_dir             = "RCTRequired"
   s.static_framework       = true
 end
