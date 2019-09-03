@@ -5,7 +5,7 @@
 # LICENSE file in the root directory of this source tree.
 
 version = "0.61.0-rc.0"
-pod_version = 0.61.0.rc
+pod_version = "0.61.0.rc"
 
 Pod::Spec.new do |s|
   s.name                   = "FBLazyVector"
