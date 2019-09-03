@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.header_dir             = "cxxreact"
   s.static_framework       = true
 
-  s.dependency "boost-for-react-native", "1.63.0"
+  s.dependency "boost-for-react-native", "~> 1.63.0"
   s.dependency "DoubleConversion"
   s.dependency "Folly", folly_version
   s.dependency "glog"
