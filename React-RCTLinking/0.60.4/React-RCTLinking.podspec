@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
   s.source                 = { :git => 'https://gitee.com/yaoning/react-native.git', :tag => version }
   s.source_files           = "Libraries/LinkingIOS/*.{h,m}"
-  # s.header_dir             = "React"
+  s.header_dir             = "React"
 
   s.dependency "React-Core", version
 end

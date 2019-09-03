@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.source                 = { :git => 'https://gitee.com/yaoning/react-native.git', :tag => version }
   s.source_files           = "React/DevSupport/*",
                              "React/Inspector/*"
-  # s.header_dir             = "React"
+  s.header_dir             = "React"
 
   s.dependency "React-Core", version
   s.dependency "React-RCTWebSocket", version

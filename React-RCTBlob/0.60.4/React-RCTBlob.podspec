@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.source                 = { :git => 'https://gitee.com/yaoning/react-native.git', :tag => version }
   s.source_files           = "Libraries/Blob/*.{h,m,mm}"
   s.preserve_paths         = "package.json", "LICENSE", "LICENSE-docs"
-  # s.header_dir             = "React"
+  s.header_dir             = "React"
 
   s.dependency "React-Core", version
   s.dependency "React-RCTNetwork", version

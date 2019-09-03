@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source                 = { :git => 'https://gitee.com/yaoning/react-native.git', :tag => version }
   s.source_files           = "Libraries/WebSocket/*.{h,m}",
                              "Libraries/fishhook/*.{h,c}"
-  # s.header_dir             = "React"
+  s.header_dir             = "React"
 
   s.dependency "React-Core", version
   s.dependency "React-fishhook", version
