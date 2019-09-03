@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
   s.source                 = { :git => 'https://github.com/facebook/react-native.git', :tag => version }
   # RCTBlobCollector.h is not included in the React module as it has C++ code
-  s.source_files           = "Libraries/Blob/*.{m,mm}", "RCTBlobCollector.h"
+  s.source_files           = "Libraries/Blob/*.{m,mm}", "Libraries/Blob/RCTBlobCollector.h"
   s.header_dir             = "RCTBlob"
   s.static_framework       = true
 
