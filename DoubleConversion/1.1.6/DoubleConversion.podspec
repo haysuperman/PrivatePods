@@ -17,9 +17,9 @@ Pod::Spec.new do |spec|
   spec.header_dir = 'double-conversion'
   spec.source_files = 'double-conversion/*.{h,cc}'
   spec.compiler_flags = '-Wno-unreachable-code'
-  # spec.public_header_files = 'double-conversion/*.h'
 
   # Pinning to the same version as React.podspec.
   spec.platforms = { :ios => "9.0", :tvos => "9.2" }
+  # spec.pod_target_xcconfig    = { "DEFINES_MODULE" => "NO" } 
 
 end
