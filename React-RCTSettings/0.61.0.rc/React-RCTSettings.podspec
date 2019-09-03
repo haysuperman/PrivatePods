@@ -4,8 +4,8 @@
 # This source code is licensed under the MIT license found in the
 # LICENSE file in the root directory of this source tree.
 
-version = 0.61.0-rc.0
-pod_version = 0.61.0.rc
+version = "0.61.0-rc.0"
+pod_version = "0.61.0.rc"
 
 Pod::Spec.new do |s|
   s.name                   = "React-RCTSettings"
