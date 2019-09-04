@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.source_files    = 'BVLinearGradient/*.{h,m}'
   s.preserve_paths  = "**/*.js"
   s.frameworks = 'UIKit', 'QuartzCore', 'Foundation'
+  s.static_framework = true
 
   s.dependency 'React', pod_version
 

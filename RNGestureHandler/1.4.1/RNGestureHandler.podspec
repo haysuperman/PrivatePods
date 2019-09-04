@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.platforms    = { :ios => "9.0", :tvos => "9.0" }
   s.source       = { :git => "https://github.com/kmagiera/react-native-gesture-handler", :tag => "#{s.version}" }
   s.source_files = "ios/**/*.{h,m}"
+  s.static_framework = true
 
   s.dependency "React", pod_version
 

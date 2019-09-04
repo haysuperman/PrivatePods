@@ -21,4 +21,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'ios/RNSentry*.{h,m}'
   s.public_header_files = 'ios/RNSentry.h'
+
+  s.static_framework = true
+
 end
