@@ -15,3 +15,5 @@ Pod::Spec.new do |s|
   s.source_files  = "ios/*.{h,m}"
 
   s.dependency "React", pod_version
+
+end
