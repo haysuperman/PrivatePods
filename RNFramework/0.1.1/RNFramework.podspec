@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'http://code.aihuishou.com/b2b-fe/rn-sdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xcuYao' => 'chinayaoning@gmail.com' }
-  s.source           = { :git => 'git@code.aihuishou.com:b2b-fe/rn-sdk.git', :tag => '0.1.0' }
+  s.source           = { :git => 'git@code.aihuishou.com:b2b-fe/rn-sdk.git', :tag => "0.1.0" }
 
   s.ios.deployment_target = '9.0'
 
@@ -55,9 +55,9 @@ Pod::Spec.new do |s|
   s.dependency 'glog', '~> 0.3.5'
   s.dependency 'Folly', '~> 2018.10.22.00'
 
-  # s.dependency 'RNGestureHandler', '~> 1.4.1'
-  # s.dependency 'react-native-image-picker', '~> 0.27.2'
-  # s.dependency 'BVLinearGradient', '~> 2.4.4'
-  # s.dependency 'GrowingReactNativeTrackKit', '~> 0.0.7'
-  # s.dependency 'SentryReactNative', '~> 0.40.2'
+  s.dependency 'RNGestureHandler', '~> 1.4.1'
+  s.dependency 'react-native-image-picker', '~> 0.27.2'
+  s.dependency 'BVLinearGradient', '~> 2.4.4'
+  s.dependency 'GrowingReactNativeTrackKit', '~> 0.0.7'
+  s.dependency 'SentryReactNative', '~> 0.40.2'
 end
