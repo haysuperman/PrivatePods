@@ -60,4 +60,5 @@ Pod::Spec.new do |s|
   s.dependency 'BVLinearGradient', '~> 2.4.4'
   s.dependency 'GrowingReactNativeTrackKit', '~> 0.0.7'
   s.dependency 'SentryReactNative', '~> 0.40.2'
+  s.dependency 'RNCAsyncStorage', '~> 1.6.1'
 end
