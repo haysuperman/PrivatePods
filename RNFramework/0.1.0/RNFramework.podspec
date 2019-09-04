@@ -55,4 +55,9 @@ Pod::Spec.new do |s|
   s.dependency 'glog', '~> 0.3.5'
   s.dependency 'Folly', '~> 2018.10.22.00'
 
+  s.dependency 'RNGestureHandler', '~> 1.4.1'
+  s.dependency 'react-native-image-picker', '~> 0.27.2'
+  s.dependency 'BVLinearGradient', '~> 2.4.4'
+  s.dependency 'GrowingReactNativeTrackKit', '~> 0.0.7'
+  s.dependency 'SentryReactNative', '~> 0.40.2'
 end
