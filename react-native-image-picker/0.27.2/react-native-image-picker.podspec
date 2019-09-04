@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.authors      = { 'Marc Shilling' => 'marcshilling@gmail.com' }
   s.homepage     = "https://github.com/react-community/react-native-image-picker"
   s.license      = "MIT"
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "9.0"
 
   s.source       = { :git => "https://github.com/marcshilling/react-native-image-picker", :tag => "v#{s.version}" }
   s.source_files  = "ios/*.{h,m}"
