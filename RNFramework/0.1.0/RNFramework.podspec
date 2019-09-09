@@ -26,10 +26,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.dependency 'FBLazyVector', pod_version
-  s.dependency 'FBReactNativeSpec', pod_version
-  s.dependency 'RCTRequired', pod_version
-  s.dependency 'RCTTypeSafety', pod_version
   s.dependency 'React', pod_version
   s.dependency 'React-Core', pod_version
   s.dependency 'React-CoreModules', pod_version
@@ -49,8 +45,6 @@ Pod::Spec.new do |s|
   s.dependency 'React-jsi', pod_version
   s.dependency 'React-jsiexecutor', pod_version
   s.dependency 'React-jsinspector', pod_version
-  s.dependency 'ReactCommon/jscallinvoker', pod_version
-  s.dependency 'ReactCommon/turbomodule/core', pod_version
   s.dependency 'yoga', '~> 0.60.4.React'
 
   s.dependency 'DoubleConversion', '~> 1.1.6'
