@@ -5,11 +5,11 @@
 # LICENSE file in the root directory of this source tree.
 
 version = "v0.61.0-rc.0"
-pod_version = "0.61.0.rc"
+rn_version = "0.61.0.rc"
 
 Pod::Spec.new do |s|
   s.name                   = "React-RCTAnimation"
-  s.version                = pod_version
+  s.version                = rn_version
   s.summary                = "A native driver for the Animated API."
   s.homepage               = "http://facebook.github.io/react-native/"
   s.license                = { :type => 'MIT' }
@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
   s.header_dir             = "RCTAnimation"
   s.static_framework       = true
 
-  s.dependency "React-Core/RCTAnimationHeaders", pod_version
+  s.dependency "React-Core/RCTAnimationHeaders", rn_version
 end

@@ -5,11 +5,11 @@
 # LICENSE file in the root directory of this source tree.
 
 version = "v0.61.0-rc.0"
-pod_version = "0.61.0.rc"
+rn_version = "0.61.0.rc"
 
 Pod::Spec.new do |s|
   s.name                   = "React-RCTImage"
-  s.version                = pod_version
+  s.version                = rn_version
   s.summary                = "A React component for displaying different types of images."
   s.homepage               = "http://facebook.github.io/react-native/"
   s.documentation_url      = "https://facebook.github.io/react-native/docs/image"
@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.header_dir             = "RCTImage"
   s.static_framework       = true
 
-  s.dependency "React-Core/RCTImageHeaders", pod_version
-  s.dependency "React-RCTNetwork", pod_version
+  s.dependency "React-Core/RCTImageHeaders", rn_version
+  s.dependency "React-RCTNetwork", rn_version
 end

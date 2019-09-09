@@ -6,7 +6,7 @@
 
 
 version = "v0.61.0-rc.0"
-pod_version = "0.61.0.rc"
+rn_version = "0.61.0.rc"
 
 folly_compiler_flags = '-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32'
 folly_version = '2018.10.22.00'
@@ -15,7 +15,7 @@ boost_compiler_flags = '-Wno-documentation'
 Pod::Spec.new do |s|
   s.name                   = "ReactCommon"
   s.module_name            = "ReactCommon"
-  s.version                = pod_version
+  s.version                = rn_version
   s.summary                = "-"  # TODO
   s.homepage               = "http://facebook.github.io/react-native/"
   s.license                = { :type => 'MIT'}
@@ -32,17 +32,17 @@ Pod::Spec.new do |s|
   s.subspec "jscallinvoker" do |ss|
     ss.source_files = "ReactCommon/jscallinvoker/**/*.{cpp,h}"
 
-    ss.dependency "React-cxxreact", pod_version
+    ss.dependency "React-cxxreact", rn_version
     ss.dependency "DoubleConversion"
     ss.dependency "Folly", folly_version
     ss.dependency "glog"
   end
 
   s.subspec "turbomodule" do |ss|
-    ss.dependency "ReactCommon/jscallinvoker", pod_version
-    ss.dependency "React-Core", pod_version
-    ss.dependency "React-cxxreact", pod_version
-    ss.dependency "React-jsi", pod_version
+    ss.dependency "ReactCommon/jscallinvoker", rn_version
+    ss.dependency "React-Core", rn_version
+    ss.dependency "React-cxxreact", rn_version
+    ss.dependency "React-jsi", rn_version
     ss.dependency "Folly", folly_version
     ss.dependency "DoubleConversion"
     ss.dependency "glog"
@@ -55,7 +55,7 @@ Pod::Spec.new do |s|
     ss.subspec "samples" do |sss|
       sss.source_files = "ReactCommon/turbomodule/samples/*.{cpp,h}",
                          "ReactCommon/turbomodule/samples/platform/ios/*.{mm,cpp,h}"
-      sss.dependency "ReactCommon/turbomodule/core", pod_version
+      sss.dependency "ReactCommon/turbomodule/core", rn_version
     end
   end
 end

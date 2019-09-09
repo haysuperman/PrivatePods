@@ -5,11 +5,11 @@
 # LICENSE file in the root directory of this source tree.
 
 version = "v0.61.0-rc.0"
-pod_version = "0.61.0.rc"
+rn_version = "0.61.0.rc"
 
 Pod::Spec.new do |s|
   s.name                   = "React-RCTBlob"
-  s.version                = pod_version
+  s.version                = rn_version
   s.summary                = "An API for displaying iOS action sheets and share sheets."
   s.homepage               = "http://facebook.github.io/react-native/"
   s.license                = { :type => 'MIT' }
@@ -21,8 +21,8 @@ Pod::Spec.new do |s|
   s.header_dir             = "RCTBlob"
   s.static_framework       = true
 
-  s.dependency "React-Core/RCTBlobHeaders", pod_version
-  s.dependency "React-RCTNetwork", pod_version
-  s.dependency "React-RCTWebSocket", pod_version
-  s.dependency "React-jsi", pod_version
+  s.dependency "React-Core/RCTBlobHeaders", rn_version
+  s.dependency "React-RCTNetwork", rn_version
+  s.dependency "React-RCTWebSocket", rn_version
+  s.dependency "React-jsi", rn_version
 end

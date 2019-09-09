@@ -5,7 +5,7 @@
 # LICENSE file in the root directory of this source tree.
 
 version = "v0.61.0-rc.0"
-pod_version = "0.61.0.rc"
+rn_version = "0.61.0.rc"
 
 folly_compiler_flags = '-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32'
 folly_version = '2018.10.22.00'
@@ -30,7 +30,7 @@ header_subspecs = {
 
 Pod::Spec.new do |s|
   s.name                   = "React-Core"
-  s.version                = pod_version
+  s.version                = rn_version
   s.summary                = "The core of React Native."
   s.homepage               = "http://facebook.github.io/react-native/"
   s.license                = { :type => 'MIT' }
@@ -72,9 +72,9 @@ Pod::Spec.new do |s|
   end
 
   s.dependency "Folly", folly_version
-  s.dependency "React-cxxreact", pod_version
-  s.dependency "React-jsi", pod_version
-  s.dependency "React-jsiexecutor", pod_version
-  s.dependency "yoga", "#{pod_version}.React"
+  s.dependency "React-cxxreact", rn_version
+  s.dependency "React-jsi", rn_version
+  s.dependency "React-jsiexecutor", rn_version
+  s.dependency "yoga", "#{rn_version}.React"
   s.dependency "glog"
 end

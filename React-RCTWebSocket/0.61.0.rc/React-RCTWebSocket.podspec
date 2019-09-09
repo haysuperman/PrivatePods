@@ -5,11 +5,11 @@
 # LICENSE file in the root directory of this source tree.
 
 version = "v0.61.0-rc.0"
-pod_version = "0.61.0.rc"
+rn_version = "0.61.0.rc"
 
 Pod::Spec.new do |s|
   s.name                   = "React-RCTWebSocket"
-  s.version                = pod_version
+  s.version                = rn_version
   s.summary                = "A library for supporting WebSockets, a protocol which provides full-duplex communication channels over a single TCP connection." 
   s.homepage               = "http://facebook.github.io/react-native/"
   s.documentation_url      = "https://facebook.github.io/react-native/docs/network#websocket-support"
@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.header_dir             = "RCTWebSocket"
   s.static_framework       = true
 
-  s.dependency "React-Core/RCTWebSocketHeaders", pod_version
+  s.dependency "React-Core/RCTWebSocketHeaders", rn_version
 end

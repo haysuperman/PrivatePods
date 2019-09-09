@@ -5,11 +5,11 @@
 # LICENSE file in the root directory of this source tree.
 
 version = "v0.61.0-rc.0"
-pod_version = "0.61.0.rc"
+rn_version = "0.61.0.rc"
 
 Pod::Spec.new do |s|
   s.name                   = "React-RCTSettings"
-  s.version                = pod_version
+  s.version                = rn_version
   s.summary                = "A wrapper for NSUserDefaults, a persistent key-value store available only on iOS." 
   s.homepage               = "http://facebook.github.io/react-native/"
   s.documentation_url      = "https://facebook.github.io/react-native/docs/settings"
@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.header_dir             = "RCTSettings"
   s.static_framework       = true
 
-  s.dependency "React-Core/RCTSettingsHeaders", pod_version
+  s.dependency "React-Core/RCTSettingsHeaders", rn_version
 end

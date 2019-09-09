@@ -5,11 +5,11 @@
 # LICENSE file in the root directory of this source tree.
 
 version = "v0.61.0-rc.0"
-pod_version = "0.61.0.rc"
+rn_version = "0.61.0.rc"
 
 Pod::Spec.new do |s|
   s.name                   = "RCTRequired"
-  s.version                = pod_version
+  s.version                = rn_version
   s.summary                = "-"  # TODO
   s.homepage               = "http://facebook.github.io/react-native/"
   s.license                = { :type => 'MIT' }

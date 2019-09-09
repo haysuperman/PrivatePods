@@ -4,11 +4,11 @@
 # LICENSE file in the root directory of this source tree.
 
 version = "v0.61.0-rc.0"
-pod_version = "0.61.0.rc.React"
+rn_version = "0.61.0.rc.React"
 
 Pod::Spec.new do |spec|
   spec.name = 'yoga'
-  spec.version = pod_version
+  spec.version = rn_version
   spec.license =  { :type => 'MIT' }
   spec.homepage = 'https://yogalayout.com'
   spec.documentation_url = 'https://yogalayout.com/docs/'

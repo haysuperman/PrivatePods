@@ -1,4 +1,4 @@
-pod_version = "0.61.0.rc"
+rn_version = "0.61.0.rc"
 
 Pod::Spec.new do |s|
 
@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit', 'QuartzCore', 'Foundation'
   s.static_framework = true
 
-  s.dependency 'React', pod_version
+  s.dependency 'React', rn_version
 
 end

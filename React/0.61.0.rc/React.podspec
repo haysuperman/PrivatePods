@@ -5,11 +5,11 @@
 # LICENSE file in the root directory of this source tree.
 
 version = "v0.61.0-rc.0"
-pod_version = "0.61.0.rc"
+rn_version = "0.61.0.rc"
 
 Pod::Spec.new do |s|
   s.name                   = "React"
-  s.version                = pod_version
+  s.version                = rn_version
   s.summary                = "hey"
   s.description            = <<-DESC
                                React Native apps are built using the React JS
@@ -31,16 +31,16 @@ Pod::Spec.new do |s|
   s.source                 = { :git => 'https://github.com/facebook/react-native.git', :tag => version }
   s.cocoapods_version      = ">= 1.2.0"
 
-  s.dependency "React-Core", pod_version
-  s.dependency "React-DevSupport", pod_version
-  s.dependency "React-RCTActionSheet", pod_version
-  s.dependency "React-RCTAnimation", pod_version
-  s.dependency "React-RCTBlob", pod_version
-  s.dependency "React-RCTImage", pod_version
-  s.dependency "React-RCTLinking", pod_version
-  s.dependency "React-RCTNetwork", pod_version
-  s.dependency "React-RCTSettings", pod_version
-  s.dependency "React-RCTText", pod_version
-  s.dependency "React-RCTVibration", pod_version
-  s.dependency "React-RCTWebSocket", pod_version
+  s.dependency "React-Core", rn_version
+  s.dependency "React-DevSupport", rn_version
+  s.dependency "React-RCTActionSheet", rn_version
+  s.dependency "React-RCTAnimation", rn_version
+  s.dependency "React-RCTBlob", rn_version
+  s.dependency "React-RCTImage", rn_version
+  s.dependency "React-RCTLinking", rn_version
+  s.dependency "React-RCTNetwork", rn_version
+  s.dependency "React-RCTSettings", rn_version
+  s.dependency "React-RCTText", rn_version
+  s.dependency "React-RCTVibration", rn_version
+  s.dependency "React-RCTWebSocket", rn_version
 end

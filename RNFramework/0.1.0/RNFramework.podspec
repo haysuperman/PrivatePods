@@ -5,10 +5,10 @@
 # Any lines starting with a # are optional, but their use is encouraged
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
-# RNFramwork 依赖库私有源
+# RNFramwork 依赖库私有源 RN版本 0.60.4
 # source 'https://github.com/xcuYao/PrivatePods.git'
 
-pod_version = "0.60.4"
+rn_version = "0.60.4"
 
 Pod::Spec.new do |s|
   s.name             = 'RNFramework'
@@ -26,25 +26,25 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.dependency 'React', pod_version
-  s.dependency 'React-Core', pod_version
-  s.dependency 'React-CoreModules', pod_version
-  s.dependency 'React-DevSupport', pod_version
-  s.dependency 'React-RCTActionSheet', pod_version
-  s.dependency 'React-RCTAnimation', pod_version
-  s.dependency 'React-RCTBlob', pod_version
-  s.dependency 'React-RCTImage', pod_version
-  s.dependency 'React-RCTLinking', pod_version
-  s.dependency 'React-RCTNetwork', pod_version
-  s.dependency 'React-RCTSettings', pod_version
-  s.dependency 'React-RCTText', pod_version
-  s.dependency 'React-RCTVibration', pod_version
-  s.dependency 'React-RCTWebSocket', pod_version
+  s.dependency 'React', rn_version
+  s.dependency 'React-Core', rn_version
+  s.dependency 'React-CoreModules', rn_version
+  s.dependency 'React-DevSupport', rn_version
+  s.dependency 'React-RCTActionSheet', rn_version
+  s.dependency 'React-RCTAnimation', rn_version
+  s.dependency 'React-RCTBlob', rn_version
+  s.dependency 'React-RCTImage', rn_version
+  s.dependency 'React-RCTLinking', rn_version
+  s.dependency 'React-RCTNetwork', rn_version
+  s.dependency 'React-RCTSettings', rn_version
+  s.dependency 'React-RCTText', rn_version
+  s.dependency 'React-RCTVibration', rn_version
+  s.dependency 'React-RCTWebSocket', rn_version
 
-  s.dependency 'React-cxxreact', pod_version
-  s.dependency 'React-jsi', pod_version
-  s.dependency 'React-jsiexecutor', pod_version
-  s.dependency 'React-jsinspector', pod_version
+  s.dependency 'React-cxxreact', rn_version
+  s.dependency 'React-jsi', rn_version
+  s.dependency 'React-jsiexecutor', rn_version
+  s.dependency 'React-jsinspector', rn_version
   s.dependency 'yoga', '~> 0.60.4.React'
 
   s.dependency 'DoubleConversion', '~> 1.1.6'

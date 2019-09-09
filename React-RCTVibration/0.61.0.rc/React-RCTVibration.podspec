@@ -5,11 +5,11 @@
 # LICENSE file in the root directory of this source tree.
 
 version = "v0.61.0-rc.0"
-pod_version = "0.61.0.rc"
+rn_version = "0.61.0.rc"
 
 Pod::Spec.new do |s|
   s.name                   = "React-RCTVibration"
-  s.version                = pod_version
+  s.version                = rn_version
   s.summary                = "An API for controlling the vibration hardware of the device." 
   s.homepage               = "http://facebook.github.io/react-native/"
   s.documentation_url      = "https://facebook.github.io/react-native/docs/vibration"
@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.header_dir             = "RCTVibration"
   s.static_framework       = true
 
-  s.dependency "React-Core/RCTVibrationHeaders", pod_version
+  s.dependency "React-Core/RCTVibrationHeaders", rn_version
 end

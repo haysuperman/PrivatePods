@@ -1,5 +1,5 @@
 
-pod_version = "0.61.0.rc"
+rn_version = "0.61.0.rc"
 
 Pod::Spec.new do |s|
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.preserve_paths = '*.js'
 
-  s.dependency 'React', pod_version
+  s.dependency 'React', rn_version
   s.dependency 'Sentry', '~> 4.0.1'
 
   s.source_files = 'ios/RNSentry*.{h,m}'
