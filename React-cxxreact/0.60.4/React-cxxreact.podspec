@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.license                = { :type => 'MIT' }
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
-  s.source                 = { :git => 'https://github.com/facebook/react-native.git', :tag => version }
+  s.source                 = { :git => 'https://github.com/facebook/react-native.git', :tag => "v#{version}" }
   s.source_files           = "ReactCommon/cxxreact/*.{cpp,h}"
   s.exclude_files          = "SampleCxxModule.*"
   s.compiler_flags         = folly_compiler_flags + ' ' + boost_compiler_flags

@@ -8,6 +8,8 @@ folly_compiler_flags = '-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 
 folly_version = '2018.10.22.00'
 boost_compiler_flags = '-Wno-documentation'
 
+version = '0.60.4'
+
 Pod::Spec.new do |s|
   s.name                   = "React-jsi"
   s.version                = "0.60.4"
@@ -16,7 +18,7 @@ Pod::Spec.new do |s|
   s.license                = { :type => 'MIT' }
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
-  s.source                 = { :git => 'https://github.com/facebook/react-native.git', :tag => '0.60.4' }
+  s.source                 = { :git => 'https://github.com/facebook/react-native.git', :tag => "v#{version}" }
   s.source_files           = "ReactCommon/jsi/**/*.{cpp,h}"
   s.framework              = "JavaScriptCore"
   s.compiler_flags         = folly_compiler_flags + ' ' + boost_compiler_flags

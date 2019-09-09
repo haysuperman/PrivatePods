@@ -8,6 +8,8 @@
 # RNFramwork 依赖库私有源
 # source 'https://github.com/xcuYao/PrivatePods.git'
 
+rn_version = "0.61.0.rc"
+
 Pod::Spec.new do |s|
   s.name             = 'RNFramework'
   s.version          = '0.1.1'
@@ -20,35 +22,35 @@ Pod::Spec.new do |s|
   s.homepage         = 'http://code.aihuishou.com/b2b-fe/rn-sdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xcuYao' => 'chinayaoning@gmail.com' }
-  s.source           = { :git => 'git@code.aihuishou.com:b2b-fe/rn-sdk.git', :tag => "0.1.0" }
+  s.source           = { :git => 'https://github.com/facebook/react-native.git', :tag => "v#{rn_version}" }
 
   s.ios.deployment_target = '9.0'
 
-  s.dependency 'FBLazyVector', '~> 0.61.0.rc'
-  s.dependency 'FBReactNativeSpec', '~> 0.61.0.rc'
-  s.dependency 'RCTRequired', '~> 0.61.0.rc'
-  s.dependency 'RCTTypeSafety', '~> 0.61.0.rc'
-  s.dependency 'React', '~> 0.61.0.rc'
-  s.dependency 'React-Core', '~> 0.61.0.rc'
-  s.dependency 'React-CoreModules', '~> 0.61.0.rc'
-  s.dependency 'React-DevSupport', '~> 0.61.0.rc'
-  s.dependency 'React-RCTActionSheet', '~> 0.61.0.rc'
-  s.dependency 'React-RCTAnimation', '~> 0.61.0.rc'
-  s.dependency 'React-RCTBlob', '~> 0.61.0.rc'
-  s.dependency 'React-RCTImage', '~> 0.61.0.rc'
-  s.dependency 'React-RCTLinking', '~> 0.61.0.rc'
-  s.dependency 'React-RCTNetwork', '~> 0.61.0.rc'
-  s.dependency 'React-RCTSettings', '~> 0.61.0.rc'
-  s.dependency 'React-RCTText', '~> 0.61.0.rc'
-  s.dependency 'React-RCTVibration', '~> 0.61.0.rc'
-  s.dependency 'React-RCTWebSocket', '~> 0.61.0.rc'
+  s.dependency 'FBLazyVector', rn_version
+  s.dependency 'FBReactNativeSpec', rn_version
+  s.dependency 'RCTRequired', rn_version
+  s.dependency 'RCTTypeSafety', rn_version
+  s.dependency 'React', rn_version
+  s.dependency 'React-Core', rn_version
+  s.dependency 'React-CoreModules', rn_version
+  s.dependency 'React-DevSupport', rn_version
+  s.dependency 'React-RCTActionSheet', rn_version
+  s.dependency 'React-RCTAnimation', rn_version
+  s.dependency 'React-RCTBlob', rn_version
+  s.dependency 'React-RCTImage', rn_version
+  s.dependency 'React-RCTLinking', rn_version
+  s.dependency 'React-RCTNetwork', rn_version
+  s.dependency 'React-RCTSettings', rn_version
+  s.dependency 'React-RCTText', rn_version
+  s.dependency 'React-RCTVibration', rn_version
+  s.dependency 'React-RCTWebSocket', rn_version
 
-  s.dependency 'React-cxxreact', '~> 0.61.0.rc'
-  s.dependency 'React-jsi', '~> 0.61.0.rc'
-  s.dependency 'React-jsiexecutor', '~> 0.61.0.rc'
-  s.dependency 'React-jsinspector', '~> 0.61.0.rc'
-  s.dependency 'ReactCommon/jscallinvoker', '~> 0.61.0.rc'
-  s.dependency 'ReactCommon/turbomodule/core', '~> 0.61.0.rc'
+  s.dependency 'React-cxxreact', rn_version
+  s.dependency 'React-jsi', rn_version
+  s.dependency 'React-jsiexecutor', rn_version
+  s.dependency 'React-jsinspector', rn_version
+  s.dependency 'ReactCommon/jscallinvoker', rn_version
+  s.dependency 'ReactCommon/turbomodule/core', rn_version
   s.dependency 'yoga', '~> 0.61.0.rc.React'
 
   s.dependency 'DoubleConversion', '~> 1.1.6'

@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.license                = { :type => 'MIT' }
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
-  s.source                 = { :git => 'https://github.com/facebook/react-native.git', :tag => version }
+  s.source                 = { :git => 'https://github.com/facebook/react-native.git', :tag => "v#{version}" }
   s.source_files           = "Libraries/Blob/*.{h,m,mm}"
   s.preserve_paths         = "package.json", "LICENSE", "LICENSE-docs"
   s.header_dir             = "React"
