@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.license                = { :type => 'MIT' }
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
-  s.source                 = { :git => 'https://gitee.com/yaoning/react-native.git', :tag => version }
+  s.source                 = { :git => 'https://github.com/facebook/react-native.git', :tag => version }
   s.source_files           = "ReactCommon/jsiexecutor/jsireact/*.{cpp,h}"
   s.compiler_flags         = folly_compiler_flags + ' ' + boost_compiler_flags
   s.pod_target_xcconfig    = { "HEADER_SEARCH_PATHS" => "\"$(PODS_ROOT)/boost-for-react-native\" \"$(PODS_ROOT)/Folly\" \"$(PODS_ROOT)/DoubleConversion\"" }
