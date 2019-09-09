@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'http://code.aihuishou.com/b2b-fe/rn-sdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xcuYao' => 'chinayaoning@gmail.com' }
-  s.source           = { :git => 'https://github.com/facebook/react-native.git', :tag => "v#{rn_version}" }
+  s.source           = { :git => 'https://github.com/facebook/react-native.git', :tag => "v0.61.0-rc.0" }
 
   s.ios.deployment_target = '9.0'
 
