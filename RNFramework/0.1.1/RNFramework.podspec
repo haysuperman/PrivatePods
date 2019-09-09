@@ -5,7 +5,7 @@
 # Any lines starting with a # are optional, but their use is encouraged
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
-# RNFramwork 依赖库私有源
+# RNFramwork 依赖库私有源 RN版本 0.61.0.rc.0
 # source 'https://github.com/xcuYao/PrivatePods.git'
 
 rn_version = "0.61.0.rc"
