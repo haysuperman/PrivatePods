@@ -28,8 +28,8 @@ Pod::Spec.new do |s|
 
   s.dependency 'React', rn_version
   s.dependency 'React-Core', rn_version
-  s.dependency 'React-CoreModules', rn_version
   s.dependency 'React-DevSupport', rn_version
+  s.dependency 'React-fishhook', rn_version
   s.dependency 'React-RCTActionSheet', rn_version
   s.dependency 'React-RCTAnimation', rn_version
   s.dependency 'React-RCTBlob', rn_version
