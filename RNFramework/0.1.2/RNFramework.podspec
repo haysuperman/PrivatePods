@@ -5,14 +5,15 @@
 # Any lines starting with a # are optional, but their use is encouraged
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
-# RNFramwork 依赖库私有源 RN版本 0.61.0.rc.0
+# RNFramwork 依赖库私有源 RN版本 0.61.0
 # source 'https://github.com/xcuYao/PrivatePods.git'
 
-rn_version = "0.61.0.rc"
+rn_tag = "v0.61.0"
+rn_version = "0.61.0"
 
 Pod::Spec.new do |s|
   s.name             = 'RNFramework'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'RN iOS容器'
 
   s.description      = <<-DESC
@@ -22,7 +23,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'http://code.aihuishou.com/b2b-fe/rn-sdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xcuYao' => 'chinayaoning@gmail.com' }
-  s.source           = { :git => 'https://github.com/facebook/react-native.git', :tag => "v0.61.0-rc.0" }
+  s.source           = { :git => 'https://github.com/facebook/react-native.git', :tag => rn_tag }
 
   s.ios.deployment_target = '9.0'
 
@@ -33,7 +34,7 @@ Pod::Spec.new do |s|
   s.dependency 'React', rn_version
   s.dependency 'React-Core', rn_version
   s.dependency 'React-CoreModules', rn_version
-  s.dependency 'React-DevSupport', rn_version
+  s.dependency 'React-Core/DevSupport', rn_version
   s.dependency 'React-RCTActionSheet', rn_version
   s.dependency 'React-RCTAnimation', rn_version
   s.dependency 'React-RCTBlob', rn_version
@@ -43,7 +44,7 @@ Pod::Spec.new do |s|
   s.dependency 'React-RCTSettings', rn_version
   s.dependency 'React-RCTText', rn_version
   s.dependency 'React-RCTVibration', rn_version
-  s.dependency 'React-RCTWebSocket', rn_version
+  s.dependency 'React-Core/RCTWebSocket', rn_version
 
   s.dependency 'React-cxxreact', rn_version
   s.dependency 'React-jsi', rn_version
@@ -51,7 +52,7 @@ Pod::Spec.new do |s|
   s.dependency 'React-jsinspector', rn_version
   s.dependency 'ReactCommon/jscallinvoker', rn_version
   s.dependency 'ReactCommon/turbomodule/core', rn_version
-  s.dependency 'yoga', '~> 0.61.0.rc.React'
+  s.dependency 'yoga', '~> 0.61.0.React'
 
   s.dependency 'DoubleConversion', '~> 1.1.6'
   s.dependency 'glog', '~> 0.3.5'

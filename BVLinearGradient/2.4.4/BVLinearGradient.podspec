@@ -1,4 +1,4 @@
-rn_version = "0.61.0.rc"
+rn_version = "0.61.0"
 
 Pod::Spec.new do |s|
 
