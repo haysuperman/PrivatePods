@@ -1,4 +1,4 @@
-rn_version = "0.61.0"
+rn_version = "0.61.2"
 
 Pod::Spec.new do |s|
   s.name         = "RNCAsyncStorage"

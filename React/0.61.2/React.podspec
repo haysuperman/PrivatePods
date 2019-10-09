@@ -4,11 +4,12 @@
 # This source code is licensed under the MIT license found in the
 # LICENSE file in the root directory of this source tree.
 
-version = '0.60.4'
+rn_tag = "v0.61.2"
+rn_version = "0.61.2"
 
 Pod::Spec.new do |s|
   s.name                   = "React"
-  s.version                = version
+  s.version                = rn_version
   s.summary                = "A framework for building native apps using React"
   s.description            = <<-DESC
                                React Native apps are built using the React JS
@@ -27,19 +28,19 @@ Pod::Spec.new do |s|
   s.license                = { :type => 'MIT' }
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
-  s.source                 = { :git => 'https://github.com/facebook/react-native.git', :tag => "v#{version}" }
+  s.source                 = { :git => 'https://github.com/facebook/react-native.git', :tag => rn_tag }
   s.cocoapods_version      = ">= 1.2.0"
 
-  s.dependency "React-Core", version
-  s.dependency "React-DevSupport", version
-  s.dependency "React-RCTActionSheet", version
-  s.dependency "React-RCTAnimation", version
-  s.dependency "React-RCTBlob", version
-  s.dependency "React-RCTImage", version
-  s.dependency "React-RCTLinking", version
-  s.dependency "React-RCTNetwork", version
-  s.dependency "React-RCTSettings", version
-  s.dependency "React-RCTText", version
-  s.dependency "React-RCTVibration", version
-  s.dependency "React-RCTWebSocket", version
+  s.dependency "React-Core", rn_version
+  s.dependency "React-Core/DevSupport", rn_version
+  s.dependency "React-Core/RCTWebSocket", rn_version
+  s.dependency "React-RCTActionSheet", rn_version
+  s.dependency "React-RCTAnimation", rn_version
+  s.dependency "React-RCTBlob", rn_version
+  s.dependency "React-RCTImage", rn_version
+  s.dependency "React-RCTLinking", rn_version
+  s.dependency "React-RCTNetwork", rn_version
+  s.dependency "React-RCTSettings", rn_version
+  s.dependency "React-RCTText", rn_version
+  s.dependency "React-RCTVibration", rn_version
 end
