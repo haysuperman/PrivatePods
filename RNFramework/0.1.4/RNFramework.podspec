@@ -14,7 +14,7 @@ rn_version = "0.61.2"
 
 Pod::Spec.new do |s|
   s.name             = 'RNFramework'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'RN iOS容器'
 
   s.description      = <<-DESC
@@ -63,9 +63,9 @@ Pod::Spec.new do |s|
   s.dependency 'react-native-image-picker', '~> 0.27.2'
   s.dependency 'BVLinearGradient', '~> 2.4.4'
   s.dependency 'GrowingReactNativeTrackKit', '~> 0.0.7'
-  s.dependency 'SentryReactNative', '~> 0.40.2'
   s.dependency 'RNCAsyncStorage', '~> 1.6.1'
   s.dependency 'RNScreens', '2.0.0-alpha.3'
   s.dependency 'RNReanimated', '1.3.0'
+  s.dependency 'RNSentry', '1.0.9'
 
 end
