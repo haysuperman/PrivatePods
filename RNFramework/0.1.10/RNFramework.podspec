@@ -58,9 +58,9 @@ Pod::Spec.new do |s|
   s.dependency 'yoga', '0.63.2.React'
 
   # RN依赖的三方库
-  s.dependency 'DoubleConversion', '1.1.6'
-  s.dependency 'glog', '0.3.5'
-  s.dependency 'Folly', '2020.01.13.00'
+  # s.dependency 'DoubleConversion', '1.1.6'
+  # s.dependency 'glog', '0.3.5'
+  # s.dependency 'Folly', '2020.01.13.00'
 
   # 自己项目额外依赖的三方库
   # s.dependency 'RNGestureHandler', '0.63.2.React'
