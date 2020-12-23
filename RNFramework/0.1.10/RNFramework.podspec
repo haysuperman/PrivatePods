@@ -59,9 +59,9 @@ Pod::Spec.new do |s|
 
   # RN依赖的三方库
   # s.dependency 'boost-for-react-native', :podspec => 'https://raw.githubusercontent.com/react-native-community/boost-for-react-native/master/boost-for-react-native.podspec'
-  s.dependency 'DoubleConversion', '1.1.6'
-  s.dependency 'glog', '0.3.5'
-  s.dependency 'Folly', '2020.01.13.00'
+  # s.dependency 'DoubleConversion', '1.1.6'
+  # s.dependency 'glog', '0.3.5'
+  # s.dependency 'Folly', '2020.01.13.00'
 
   # 自己项目额外依赖的三方库
   # s.dependency 'RNGestureHandler', '0.63.2.React'
