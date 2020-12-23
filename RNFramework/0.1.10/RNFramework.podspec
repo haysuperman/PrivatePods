@@ -63,16 +63,16 @@ Pod::Spec.new do |s|
   s.dependency 'Folly', '2020.01.13.00'
 
   # 自己项目额外依赖的三方库
-  s.dependency 'RNGestureHandler', '0.63.2.React'
-  s.dependency 'react-native-image-picker', '0.63.2.React'
-  s.dependency 'BVLinearGradient', '0.63.2.React'
-  s.dependency 'RNCAsyncStorage', '0.63.2.React'
-  s.dependency 'RNScreens', '0.63.2.React'
-  s.dependency 'RNReanimated', '0.63.2.React'
-  s.dependency 'RNSentry', '0.63.2.React'
-  s.dependency 'RNFetchBlob', '0.63.2.React'
+  # s.dependency 'RNGestureHandler', '0.63.2.React'
+  # s.dependency 'react-native-image-picker', '0.63.2.React'
+  # s.dependency 'BVLinearGradient', '0.63.2.React'
+  # s.dependency 'RNCAsyncStorage', '0.63.2.React'
+  # s.dependency 'RNScreens', '0.63.2.React'
+  # s.dependency 'RNReanimated', '0.63.2.React'
+  # s.dependency 'RNSentry', '0.63.2.React'
+  # s.dependency 'RNFetchBlob', '0.63.2.React'
   # s.dependency 'RNImageCropPicker', '0.63.2.React'
-  s.dependency 'RNWebpSupport', '0.63.2.React'
-  s.dependency 'RNGestureHandler', '0.63.2.React'
+  # s.dependency 'RNWebpSupport', '0.63.2.React'
+  # s.dependency 'RNGestureHandler', '0.63.2.React'
 
 end
