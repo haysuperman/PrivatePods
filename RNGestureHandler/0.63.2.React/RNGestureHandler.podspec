@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { 'Krzysztof Magiera' => 'krzys.magiera@gmail.com' }
   s.platforms    = { :ios => "10.0", :tvos => "10.0" }
-  s.source       = { :git => "https://github.com/kmagiera/react-native-gesture-handler", :tag => "1.4.1" }
+  s.source       = { :git => "https://github.com/kmagiera/react-native-gesture-handler", :tag => "1.9.0" }
   s.source_files = "ios/**/*.{h,m}"
   s.static_framework = true
 

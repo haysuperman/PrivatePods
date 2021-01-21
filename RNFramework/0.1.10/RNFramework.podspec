@@ -72,6 +72,8 @@ Pod::Spec.new do |s|
   s.dependency 'RNSentry', '0.63.2.React'
   s.dependency 'RNFetchBlob', '0.63.2.React'
   s.dependency 'React-navigation', '0.63.2.React'
+  s.dependency 'RNCMaskedView', '0.63.2.React'
+  s.dependency 'react-native-safe-area-context', '0.63.2.React'
   # s.dependency 'RNImageCropPicker', '0.63.2.React'
   # s.dependency 'RNWebpSupport', '0.63.2.React'
   # s.dependency 'RNGestureHandler', '0.63.2.React'
