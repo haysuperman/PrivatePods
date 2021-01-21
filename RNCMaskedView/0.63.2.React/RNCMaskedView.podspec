@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { 'Krzysztof Magiera' => 'krzys.magiera@gmail.com' }
   s.platforms    = { :ios => "10.0", :tvos => "10.0" }
-  s.source       = { :git => "https://github.com/react-native-masked-view/masked-view.git", :tag => "0.2.0" }
+  s.source       = { :git => "https://github.com/react-native-masked-view/masked-view.git", :tag => "v0.2.0" }
   s.source_files = "ios/**/*.{h,m}"
 
   s.dependency 'React-Core', rn_version

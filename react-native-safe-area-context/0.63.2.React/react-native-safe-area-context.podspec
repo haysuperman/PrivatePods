@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { 'Krzysztof Magiera' => 'krzys.magiera@gmail.com' }
   s.platforms    = { :ios => "10.0", :tvos => "10.0" }
-  s.source       = { :git => "https://github.com/th3rdwave/react-native-safe-area-context.git", :tag => "3.1.8" }
+  s.source       = { :git => "https://github.com/th3rdwave/react-native-safe-area-context.git", :tag => "v3.1.8" }
   s.source_files = "ios/**/*.{h,m}"
   s.static_framework = true
 
