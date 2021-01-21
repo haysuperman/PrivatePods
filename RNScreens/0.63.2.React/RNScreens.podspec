@@ -9,15 +9,14 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   RNScreens - first incomplete navigation solution for your React Native app
                    DESC
-  s.homepage     = "https://github.com/kmagiera/react-native-screens"
+  s.homepage     = "https://github.com/software-mansion/react-native-screens"
   s.license      = "MIT"
   s.author       = { "author" => "author@domain.cn" }
   s.platform     = :ios, "10.0"
-  s.source       = { :git => "https://github.com/kmagiera/react-native-screens.git", :tag => "2.0.0-alpha.3" }
+  s.source       = { :git => "https://github.com/software-mansion/react-native-screens.git", :tag => "2.15.2" }
 
   s.source_files = "ios/**/*.{h,m}"
   s.requires_arc = true
-  s.static_framework = true
 
-  s.dependency "React", rn_version
+  s.dependency "React-Core", rn_version
 end
